@@ -1,7 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+ToDo.destroy_all
+ToDo.create(description: 'Create Rails application.', done: true)
+ToDo.create(description: 'Scaffold ToDo Model.', done: true)
+ToDo.create(description: 'Add VueJS to project.', done: false)
+ToDo.create(description: 'Complete ToDo app with VueJS components.', done: false)
